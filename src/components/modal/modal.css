@@ -1,0 +1,18 @@
+.modal-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container > .modal-window{
+	width: 800px;
+	max-width: 90%;
+	height: 500px;
+	max-height: 80%;
+}
